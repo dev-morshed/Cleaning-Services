@@ -1,0 +1,1504 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://static.readdy.ai/static/e.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Oli Cleaning - Your Trusted Partner for Home Clean Solutions</title>
+    <script src="https://cdn.tailwindcss.com/3.4.16"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: "#5c2e79",
+              secondary: "#78ae3f",
+            },
+            borderRadius: {
+              none: "0px",
+              sm: "4px",
+              DEFAULT: "8px",
+              md: "12px",
+              lg: "16px",
+              xl: "20px",
+              "2xl": "24px",
+              "3xl": "32px",
+              full: "9999px",
+              button: "8px",
+            },
+          },
+        },
+      };
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css"
+    />
+    <style>
+      :where([class^="ri-"])::before {
+        content: "\f3c2";
+      }
+      body {
+        font-family: "Poppins", sans-serif;
+      }
+      .hero-section {
+        background-image: url("https://readdy.ai/api/search-image?query=Professional%20cleaning%20team%20in%20bright%20modern%20kitchen%2C%20three%20cleaners%20in%20white%20shirts%20and%20green%20aprons%20working%20together%2C%20one%20using%20vacuum%20cleaner%2C%20one%20mopping%20floor%20with%20green%20mop%2C%20one%20cleaning%20surfaces%2C%20yellow%20cleaning%20equipment%20and%20supplies%2C%20white%20cabinets%20and%20bright%20lighting%2C%20clean%20minimalist%20interior%2C%20high-end%20professional%20photography&width=1920&height=800&seq=12345&orientation=landscape");
+        background-size: cover;
+        background-position: center;
+      }
+      input:focus,
+      textarea:focus {
+        outline: none;
+      }
+      .payment-method {
+        transition: all 0.3s ease;
+      }
+      .payment-method.selected {
+        border-color: #0a4f45;
+        background-color: #f0f9f7;
+      }
+    </style>
+  </head>
+
+  <body class="bg-gray-50">
+    <!-- Header -->
+   <header class="bg-white shadow-sm sticky top-0 z-50">
+  <div class="container mx-auto px-4 py-4 flex items-center justify-between">
+    <!-- Left: Logo -->
+    <div class="flex items-center">
+      <img src="https://i.postimg.cc/R0qfyp2W/oli-logo.png" alt="ProHealth Logo" class="h-16 w-auto">
+    </div>
+    
+    <!-- Right: Navigation and Book Now button -->
+    <div class="flex items-center">
+      <nav class="hidden md:flex ml-10">
+        <a href="#hero" class="mx-3 text-gray-700 hover:text-primary font-medium">Home</a>
+        <a href="#services" class="mx-3 text-gray-700 hover:text-primary font-medium">Services</a>
+        <a href="#about" class="mx-3 text-gray-700 hover:text-primary font-medium">About Us</a>
+        <a href="#contacts" class="mx-3 text-gray-700 hover:text-primary font-medium">Contact</a>
+      </nav>
+
+      <a href="#contact" class="bg-secondary text-white px-6 py-2 rounded-button font-medium hover:bg-opacity-90 transition whitespace-nowrap ml-4">
+        Book Now
+      </a>
+
+      <button class="md:hidden ml-4 text-gray-700">
+        <div class="w-8 h-8 flex items-center justify-center">
+          <i class="ri-menu-line ri-lg"></i>
+        </div>
+      </button>
+    </div>
+  </div>
+</header>
+
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section relative">
+      <div
+        class="absolute inset-0 bg-gradient-to-r from-primary/80 to-transparent"
+      ></div>
+      <div class="container mx-auto px-4 py-24 md:py-32 relative">
+        <div class="max-w-xl text-white">
+          <h1 class="text-4xl md:text-5xl font-bold mb-6">
+            Your Trusted Partner for Home Clean Solutions
+          </h1>
+          <p class="text-lg mb-8">
+            Professional cleaning services tailored to your needs. Experience
+            spotless results with our expert team and eco-friendly cleaning
+            products.
+          </p>
+          <div class="flex flex-wrap gap-4">
+            <a
+              href="#contact"
+              class="bg-secondary text-white px-6 py-3 rounded-button font-medium hover:bg-opacity-90 transition whitespace-nowrap"
+              >Book Now</a
+            >
+            <a
+              href="#services"
+              class="bg-white text-primary px-6 py-3 rounded-button font-medium hover:bg-opacity-90 transition whitespace-nowrap"
+              >Learn More</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-16 bg-white">
+      <div class="container mx-auto px-4">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div class="bg-white p-8 rounded-lg shadow-sm text-center">
+            <div
+              class="w-16 h-16 bg-secondary/10 rounded-full flex items-center justify-center mx-auto mb-4"
+            >
+              <i class="ri-shield-check-line ri-xl text-secondary"></i>
+            </div>
+            <h3 class="text-xl font-semibold mb-3">Professional Staff</h3>
+            <p class="text-gray-600">
+              Our highly trained and vetted cleaning professionals deliver
+              exceptional service every time.
+            </p>
+          </div>
+          <div class="bg-white p-8 rounded-lg shadow-sm text-center">
+            <div
+              class="w-16 h-16 bg-secondary/10 rounded-full flex items-center justify-center mx-auto mb-4"
+            >
+              <i class="ri-leaf-line ri-xl text-secondary"></i>
+            </div>
+            <h3 class="text-xl font-semibold mb-3">Eco-Friendly Products</h3>
+            <p class="text-gray-600">
+              We use environmentally safe cleaning solutions that are effective
+              and safe for your family.
+            </p>
+          </div>
+          <div class="bg-white p-8 rounded-lg shadow-sm text-center">
+            <div
+              class="w-16 h-16 bg-secondary/10 rounded-full flex items-center justify-center mx-auto mb-4"
+            >
+              <i class="ri-time-line ri-xl text-secondary"></i>
+            </div>
+            <h3 class="text-xl font-semibold mb-3">Flexible Scheduling</h3>
+            <p class="text-gray-600">
+              Book our services at your convenience with our easy online
+              scheduling system.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 bg-gray-50">
+      <div class="container mx-auto px-4">
+        <div class="flex flex-col md:flex-row items-center gap-12">
+          <div class="md:w-1/2">
+            <img
+              src="https://readdy.ai/api/search-image?query=Professional%20cleaning%20team%20in%20uniform%20smiling%20at%20camera%2C%20diverse%20group%20of%20cleaners%20with%20cleaning%20equipment%2C%20bright%20modern%20interior%2C%20professional%20business%20portrait%2C%20high%20quality%20photography&width=600&height=400&seq=12346&orientation=landscape"
+              alt="Our cleaning team"
+              class="rounded-lg shadow-md w-full object-cover object-top"
+            />
+          </div>
+          <div class="md:w-1/2">
+            <h2 class="text-3xl font-bold mb-6 text-gray-800">
+              Trusted by thousands of satisfied customers
+            </h2>
+            <p class="text-gray-600 mb-6">
+              CleanPro has been providing exceptional cleaning services for over
+              10 years. Our commitment to quality, reliability, and customer
+              satisfaction has made us the preferred choice for residential and
+              commercial cleaning solutions.
+            </p>
+            <div class="grid grid-cols-2 gap-6">
+              <div>
+                <div class="flex items-center mb-2">
+                  <div
+                    class="w-10 h-10 flex items-center justify-center text-primary"
+                  >
+                    <i class="ri-check-line ri-xl"></i>
+                  </div>
+                  <h4 class="font-semibold">100% Satisfaction</h4>
+                </div>
+                <p class="text-gray-600 text-sm pl-10">
+                  We guarantee your complete satisfaction with every cleaning
+                  service.
+                </p>
+              </div>
+              <div>
+                <div class="flex items-center mb-2">
+                  <div
+                    class="w-10 h-10 flex items-center justify-center text-primary"
+                  >
+                    <i class="ri-check-line ri-xl"></i>
+                  </div>
+                  <h4 class="font-semibold">Insured & Bonded</h4>
+                </div>
+                <p class="text-gray-600 text-sm pl-10">
+                  Your property is fully protected while in our care.
+                </p>
+              </div>
+              <div>
+                <div class="flex items-center mb-2">
+                  <div
+                    class="w-10 h-10 flex items-center justify-center text-primary"
+                  >
+                    <i class="ri-check-line ri-xl"></i>
+                  </div>
+                  <h4 class="font-semibold">Trained Professionals</h4>
+                </div>
+                <p class="text-gray-600 text-sm pl-10">
+                  Our staff undergoes rigorous training and background checks.
+                </p>
+              </div>
+              <div>
+                <div class="flex items-center mb-2">
+                  <div
+                    class="w-10 h-10 flex items-center justify-center text-primary"
+                  >
+                    <i class="ri-check-line ri-xl"></i>
+                  </div>
+                  <h4 class="font-semibold">Customized Service</h4>
+                </div>
+                <p class="text-gray-600 text-sm pl-10">
+                  We tailor our cleaning plans to meet your specific needs.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Enhanced About Section with Emoji -->
+    <section class="py-16 bg-white">
+      <div class="container mx-auto px-4">
+        <div class="flex flex-col md:flex-row items-center gap-12">
+          <div class="md:w-1/2">
+            <div
+              class="bg-gradient-to-br from-primary/10 to-secondary/10 p-8 rounded-2xl shadow-sm text-center"
+            >
+              <div class="text-8xl mb-6">🧹✨</div>
+              <h3 class="text-2xl font-bold text-gray-800 mb-4">
+                Why Choose CleanPro?
+              </h3>
+              <div class="space-y-4 text-left">
+                <div class="flex items-start">
+                  <div
+                    class="w-8 h-8 bg-primary text-white rounded-full flex items-center justify-center mt-1 mr-4"
+                  >
+                    <i class="ri-check-line"></i>
+                  </div>
+                  <div>
+                    <h4 class="font-semibold text-gray-800">
+                      10+ Years Experience
+                    </h4>
+                    <p class="text-gray-600 text-sm">
+                      Over a decade of delivering exceptional cleaning services
+                    </p>
+                  </div>
+                </div>
+                <div class="flex items-start">
+                  <div
+                    class="w-8 h-8 bg-primary text-white rounded-full flex items-center justify-center mt-1 mr-4"
+                  >
+                    <i class="ri-check-line"></i>
+                  </div>
+                  <div>
+                    <h4 class="font-semibold text-gray-800">
+                      5000+ Happy Clients
+                    </h4>
+                    <p class="text-gray-600 text-sm">
+                      Join thousands of satisfied customers who trust our
+                      services
+                    </p>
+                  </div>
+                </div>
+                <div class="flex items-start">
+                  <div
+                    class="w-8 h-8 bg-primary text-white rounded-full flex items-center justify-center mt-1 mr-4"
+                  >
+                    <i class="ri-check-line"></i>
+                  </div>
+                  <div>
+                    <h4 class="font-semibold text-gray-800">24/7 Support</h4>
+                    <p class="text-gray-600 text-sm">
+                      Round-the-clock customer service for your convenience
+                    </p>
+                  </div>
+                </div>
+                <div class="flex items-start">
+                  <div
+                    class="w-8 h-8 bg-primary text-white rounded-full flex items-center justify-center mt-1 mr-4"
+                  >
+                    <i class="ri-check-line"></i>
+                  </div>
+                  <div>
+                    <h4 class="font-semibold text-gray-800">
+                      Eco-Friendly Approach
+                    </h4>
+                    <p class="text-gray-600 text-sm">
+                      Sustainable cleaning solutions for a healthier environment
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="md:w-1/2">
+            <h2 class="text-3xl font-bold mb-6 text-gray-800">
+              Our Story & Mission
+            </h2>
+            <p class="text-gray-600 mb-6">
+              Founded in 2015, CleanPro started as a small local cleaning
+              service with a simple mission: to provide exceptional cleaning
+              services that exceed customer expectations while maintaining the
+              highest standards of professionalism and environmental
+              responsibility.
+            </p>
+            <p class="text-gray-600 mb-6">
+              Today, we've grown into a trusted name in the cleaning industry,
+              serving both residential and commercial clients across multiple
+              cities. Our success is built on our commitment to quality, our
+              dedicated team of professionals, and our unwavering focus on
+              customer satisfaction.
+            </p>
+            <div class="bg-primary/5 p-6 rounded-lg border-l-4 border-primary">
+              <p class="text-gray-700 italic">
+                "Our mission is to transform spaces and enhance lives through
+                exceptional cleaning services that promote health, happiness, and
+                environmental sustainability."
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trusted Brands -->
+   <!--  <section class="py-12 bg-white">
+      <div class="container mx-auto px-4">
+        <h2 class="text-2xl font-semibold text-center mb-10 text-gray-800">
+          Trusted by Leading Brands
+        </h2>
+        <div
+          class="flex flex-wrap justify-center items-center gap-8 md:gap-16"
+        >
+          <div class="flex items-center text-gray-500">
+            <div class="w-8 h-8 flex items-center justify-center">
+              <i class="ri-amazon-fill ri-2x"></i>
+            </div>
+            <span class="ml-2 font-medium">Amazon</span>
+          </div>
+          <div class="flex items-center text-gray-500">
+            <div class="w-8 h-8 flex items-center justify-center">
+              <i class="ri-google-fill ri-2x"></i>
+            </div>
+            <span class="ml-2 font-medium">Google</span>
+          </div>
+          <div class="flex items-center text-gray-500">
+            <div class="w-8 h-8 flex items-center justify-center">
+              <i class="ri-microsoft-fill ri-2x"></i>
+            </div>
+            <span class="ml-2 font-medium">Microsoft</span>
+          </div>
+          <div class="flex items-center text-gray-500">
+            <div class="w-8 h-8 flex items-center justify-center">
+              <i class="ri-netflix-fill ri-2x"></i>
+            </div>
+            <span class="ml-2 font-medium">Netflix</span>
+          </div>
+          <div class="flex items-center text-gray-500">
+            <div class="w-8 h-8 flex items-center justify-center">
+              <i class="ri-apple-fill ri-2x"></i>
+            </div>
+            <span class="ml-2 font-medium">Apple</span>
+          </div>
+          <div class="flex items-center text-gray-500">
+            <div class="w-8 h-8 flex items-center justify-center">
+              <i class="ri-facebook-fill ri-2x"></i>
+            </div>
+            <span class="ml-2 font-medium">Facebook</span>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- Featured Service -->
+    <section id="services" class="py-16 bg-primary/5">
+      <div class="container mx-auto px-4">
+        <div class="bg-primary p-12 rounded-2xl shadow-sm">
+          <div class="flex flex-col md:flex-row gap-12">
+            <div class="md:w-1/2">
+              <h2 class="text-3xl font-bold mb-6 text-white">
+                Our Premium House Cleaning Services
+              </h2>
+              <p class="text-white/80 mb-6">
+                Experience the ultimate in home cleaning with our comprehensive
+                premium service. Our team of professionals will transform your
+                home with meticulous attention to detail.
+              </p>
+              <ul class="space-y-3 mb-8">
+                <li class="flex items-start">
+                  <div
+                    class="w-6 h-6 flex items-center justify-center text-white mt-0.5"
+                  >
+                    <i class="ri-check-line"></i>
+                  </div>
+                  <span class="ml-2 text-white"
+                    >Deep cleaning of all rooms and surfaces</span
+                  >
+                </li>
+                <li class="flex items-start">
+                  <div
+                    class="w-6 h-6 flex items-center justify-center text-white mt-0.5"
+                  >
+                    <i class="ri-check-line"></i>
+                  </div>
+                  <span class="ml-2 text-white"
+                    >Kitchen and bathroom sanitization</span
+                  >
+                </li>
+                <li class="flex items-start">
+                  <div
+                    class="w-6 h-6 flex items-center justify-center text-white mt-0.5"
+                  >
+                    <i class="ri-check-line"></i>
+                  </div>
+                  <span class="ml-2 text-white"
+                    >Dusting and vacuuming all areas</span
+                  >
+                </li>
+                <li class="flex items-start">
+                  <div
+                    class="w-6 h-6 flex items-center justify-center text-white mt-0.5"
+                  >
+                    <i class="ri-check-line"></i>
+                  </div>
+                  <span class="ml-2 text-white"
+                    >Window and glass cleaning</span
+                  >
+                </li>
+                <li class="flex items-start">
+                  <div
+                    class="w-6 h-6 flex items-center justify-center text-white mt-0.5"
+                  >
+                    <i class="ri-check-line"></i>
+                  </div>
+                  <span class="ml-2 text-white"
+                    >Eco-friendly products and equipment</span
+                  >
+                </li>
+              </ul>
+              <a
+                href="#"
+                class="bg-secondary text-white px-6 py-3 rounded-button font-medium hover:bg-opacity-90 transition inline-block whitespace-nowrap"
+                >Book Premium Service</a
+              >
+            </div>
+            <div class="md:w-1/2">
+              <div class="grid grid-cols-2 gap-6">
+                <div class="space-y-6">
+                  <img
+                    src="https://readdy.ai/api/search-image?query=Clean%20modern%20kitchen%20with%20sparkling%20countertops%2C%20shiny%20appliances%2C%20bright%20lighting%2C%20after%20professional%20cleaning%20service%2C%20no%20people&width=300&height=250&seq=12347&orientation=landscape"
+                    alt="Clean kitchen"
+                    class="rounded-lg shadow-sm w-full h-48 object-cover object-top"
+                  />
+                  <img
+                    src="https://readdy.ai/api/search-image?query=Clean%20modern%20living%20room%20with%20vacuumed%20carpet%2C%20dust-free%20surfaces%2C%20organized%20furniture%2C%20bright%20and%20airy%2C%20after%20professional%20cleaning%20service%2C%20no%20people&width=300&height=250&seq=12349&orientation=landscape"
+                    alt="Clean living room"
+                    class="rounded-lg shadow-sm w-full h-48 object-cover object-top"
+                  />
+                </div>
+                <div class="space-y-6">
+                  <img
+                    src="https://readdy.ai/api/search-image?query=Clean%20modern%20bathroom%20with%20spotless%20shower%20glass%2C%20gleaming%20fixtures%2C%20neatly%20arranged%20towels%2C%20after%20professional%20cleaning%20service%2C%20no%20people&width=300&height=250&seq=12348&orientation=landscape"
+                    alt="Clean bathroom"
+                    class="rounded-lg shadow-sm w-full h-48 object-cover object-top"
+                  />
+                  <img
+                    src="https://readdy.ai/api/search-image?query=Clean%20modern%20bedroom%20with%20perfectly%20made%20bed%2C%20dust-free%20surfaces%2C%20organized%20space%2C%20bright%20and%20airy%2C%20after%20professional%20cleaning%20service%2C%20no%20people&width=300&height=250&seq=12350&orientation=landscape"
+                    alt="Clean bedroom"
+                    class="rounded-lg shadow-sm w-full h-48 object-cover object-top"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Grid -->
+    <section class="py-16 bg-white">
+      <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">
+          Our Cleaning Services
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div
+            class="bg-white rounded-lg shadow-sm overflow-hidden transition-transform hover:shadow-md hover:-translate-y-1"
+          >
+            <img
+              src="https://readdy.ai/api/search-image?query=Professional%20cleaning%20service%20worker%20in%20dark%20green%20branded%20uniform%20with%20company%20logo%20and%20protective%20gear%2C%20using%20modern%20vacuum%20cleaner%20in%20an%20upscale%20living%20room%2C%20perfect%20lighting%2C%20commercial%20photography%20style%2C%20showing%20professional%20cleaning%20expertise&width=400&height=250&seq=12351&orientation=landscape"
+              alt="Residential Cleaning"
+              class="w-full h-56 object-cover object-top"
+            />
+            <div class="p-6">
+              <h3 class="text-xl font-semibold mb-3 text-gray-800">
+                Residential Cleaning
+              </h3>
+              <p class="text-gray-600 mb-4">
+                Comprehensive cleaning services for homes of all sizes. Regular
+                maintenance or one-time deep cleaning options available.
+              </p>
+              <a
+                href="#"
+                class="text-secondary font-medium flex items-center hover:underline"
+              >
+                Learn More
+                <div class="w-5 h-5 flex items-center justify-center ml-1">
+                  <i class="ri-arrow-right-line"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div
+            class="bg-white rounded-lg shadow-sm overflow-hidden transition-transform hover:shadow-md hover:-translate-y-1"
+          >
+            <img
+              src="https://readdy.ai/api/search-image?query=Two%20professional%20cleaners%20in%20matching%20dark%20green%20branded%20uniforms%20with%20company%20logos%2C%20cleaning%20a%20modern%20corporate%20office%20space%2C%20one%20vacuuming%20while%20other%20wiping%20glass%20walls%2C%20both%20wearing%20proper%20protective%20gear%2C%20evening%20lighting%2C%20pristine%20corporate%20environment%2C%20commercial%20photography%20style&width=400&height=250&seq=12352&orientation=landscape"
+              alt="Commercial Cleaning"
+              class="w-full h-56 object-cover object-top"
+            />
+            <div class="p-6">
+              <h3 class="text-xl font-semibold mb-3 text-gray-800">
+                Commercial Cleaning
+              </h3>
+              <p class="text-gray-600 mb-4">
+                Professional cleaning solutions for offices, retail spaces, and
+                commercial properties to maintain a pristine business
+                environment.
+              </p>
+              <a
+                href="#"
+                class="text-secondary font-medium flex items-center hover:underline"
+              >
+                Learn More
+                <div class="w-5 h-5 flex items-center justify-center ml-1">
+                  <i class="ri-arrow-right-line"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div
+            class="bg-white rounded-lg shadow-sm overflow-hidden transition-transform hover:shadow-md hover:-translate-y-1"
+          >
+            <img
+              src="https://readdy.ai/api/search-image?query=Two%20professional%20cleaners%20in%20identical%20dark%20green%20branded%20uniforms%20with%20company%20logos%2C%20cleaning%20an%20empty%20modern%20apartment%2C%20one%20using%20professional%20vacuum%20on%20hardwood%20floors%2C%20other%20wiping%20kitchen%20surfaces%2C%20both%20wearing%20proper%20protective%20gear%2C%20bright%20natural%20lighting%2C%20commercial%20photography%20style&width=400&height=250&seq=12353&orientation=landscape"
+              alt="Move In/Out Cleaning"
+              class="w-full h-56 object-cover object-top"
+            />
+            <div class="p-6">
+              <h3 class="text-xl font-semibold mb-3 text-gray-800">
+                Move In/Out Cleaning
+              </h3>
+              <p class="text-gray-600 mb-4">
+                Specialized cleaning services for when you're moving in or out
+                of a property, ensuring a fresh start in your new space.
+              </p>
+              <a
+                href="#"
+                class="text-secondary font-medium flex items-center hover:underline"
+              >
+                Learn More
+                <div class="w-5 h-5 flex items-center justify-center ml-1">
+                  <i class="ri-arrow-right-line"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div
+            class="bg-white rounded-lg shadow-sm overflow-hidden transition-transform hover:shadow-md hover:-translate-y-1"
+          >
+            <img
+              src="https://readdy.ai/api/search-image?query=Professional%20cleaner%20in%20dark%20green%20branded%20uniform%20with%20company%20logo%2C%20performing%20deep%20cleaning%20in%20modern%20kitchen%2C%20wearing%20proper%20protective%20gear%2C%20using%20eco-friendly%20cleaning%20solutions%20on%20countertops%2C%20organized%20cleaning%20supplies%20visible%2C%20bright%20natural%20lighting%2C%20commercial%20photography%20style&width=400&height=250&seq=12354&orientation=landscape"
+              alt="Deep Cleaning"
+              class="w-full h-56 object-cover object-top"
+            />
+            <div class="p-6">
+              <h3 class="text-xl font-semibold mb-3 text-gray-800">
+                Deep Cleaning
+              </h3>
+              <p class="text-gray-600 mb-4">
+                Intensive cleaning service that reaches every corner and
+                crevice, ideal for seasonal cleaning or special occasions.
+              </p>
+              <a
+                href="#"
+                class="text-secondary font-medium flex items-center hover:underline"
+              >
+                Learn More
+                <div class="w-5 h-5 flex items-center justify-center ml-1">
+                  <i class="ri-arrow-right-line"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div
+            class="bg-white rounded-lg shadow-sm overflow-hidden transition-transform hover:shadow-md hover:-translate-y-1"
+          >
+            <img
+              src="https://readdy.ai/api/search-image?query=Professional%20window%20cleaner%20in%20dark%20green%20branded%20uniform%20with%20company%20logo%2C%20cleaning%20large%20residential%20window%20with%20professional%20equipment%2C%20wearing%20safety%20harness%20and%20protective%20gear%2C%20bright%20modern%20interior%20visible%20through%20clean%20glass%2C%20commercial%20photography%20style&width=400&height=250&seq=12355&orientation=landscape"
+              alt="Window Cleaning"
+              class="w-full h-56 object-cover object-top"
+            />
+            <div class="p-6">
+              <h3 class="text-xl font-semibold mb-3 text-gray-800">
+                Window Cleaning
+              </h3>
+              <p class="text-gray-600 mb-4">
+                Professional window cleaning services for crystal clear views.
+                We handle windows of all sizes and heights.
+              </p>
+              <a
+                href="#"
+                class="text-secondary font-medium flex items-center hover:underline"
+              >
+                Learn More
+                <div class="w-5 h-5 flex items-center justify-center ml-1">
+                  <i class="ri-arrow-right-line"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div
+            class="bg-white rounded-lg shadow-sm overflow-hidden transition-transform hover:shadow-md hover:-translate-y-1"
+          >
+            <img
+              src="https://readdy.ai/api/search-image?query=Professional%20carpet%20cleaner%20in%20dark%20green%20branded%20uniform%20with%20company%20logo%2C%20operating%20industrial%20carpet%20cleaning%20machine%20in%20luxury%20living%20room%2C%20wearing%20proper%20protective%20gear%2C%20steam%20cleaning%20in%20progress%2C%20commercial%20photography%20style&width=400&height=250&seq=12356&orientation=landscape"
+              alt="Carpet Cleaning"
+              class="w-full h-56 object-cover object-top"
+            />
+            <div class="p-6">
+              <h3 class="text-xl font-semibold mb-3 text-gray-800">
+                Carpet Cleaning
+              </h3>
+              <p class="text-gray-600 mb-4">
+                Revitalize your carpets with our deep cleaning service. We
+                remove stains, odors, and allergens for a fresher home.
+              </p>
+              <a
+                href="#"
+                class="text-secondary font-medium flex items-center hover:underline"
+              >
+                Learn More
+                <div class="w-5 h-5 flex items-center justify-center ml-1">
+                  <i class="ri-arrow-right-line"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Payment Method Section -->
+    <section class="py-16 bg-gray-50">
+      <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">
+          Secure Payment Options
+        </h2>
+        <div class="max-w-4xl mx-auto">
+          <div class="bg-white p-8 rounded-lg shadow-sm">
+            <h3 class="text-xl font-semibold mb-6 text-gray-800">
+              Choose Your Payment Method
+            </h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+              <div
+                class="payment-method border-2 border-gray-200 rounded-lg p-4 cursor-pointer"
+                onclick="selectPaymentMethod('card')"
+              >
+                <div class="flex items-center">
+                  <div
+                    class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mr-4"
+                  >
+                    <i class="ri-bank-card-line ri-xl text-primary"></i>
+                  </div>
+                  <div>
+                    <h4 class="font-semibold text-gray-800">
+                      Credit/Debit Card
+                    </h4>
+                    <p class="text-gray-600 text-sm">
+                      Pay securely with your card
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="payment-method border-2 border-gray-200 rounded-lg p-4 cursor-pointer"
+                onclick="selectPaymentMethod('paypal')"
+              >
+                <div class="flex items-center">
+                  <div
+                    class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mr-4"
+                  >
+                    <i class="ri-paypal-fill ri-xl text-blue-600"></i>
+                  </div>
+                  <div>
+                    <h4 class="font-semibold text-gray-800">PayPal</h4>
+                    <p class="text-gray-600 text-sm">
+                      Fast and secure payment
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="payment-method border-2 border-gray-200 rounded-lg p-4 cursor-pointer"
+                onclick="selectPaymentMethod('bank')"
+              >
+                <div class="flex items-center">
+                  <div
+                    class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mr-4"
+                  >
+                    <i class="ri-bank-line ri-xl text-green-600"></i>
+                  </div>
+                  <div>
+                    <h4 class="font-semibold text-gray-800">Bank Transfer</h4>
+                    <p class="text-gray-600 text-sm">Direct bank payment</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="payment-method border-2 border-gray-200 rounded-lg p-4 cursor-pointer"
+                onclick="selectPaymentMethod('cash')"
+              >
+                <div class="flex items-center">
+                  <div
+                    class="w-12 h-12 bg-yellow-100 rounded-full flex items-center justify-center mr-4"
+                  >
+                    <i class="ri-money-dollar-circle-line ri-xl text-yellow-600"></i>
+                  </div>
+                  <div>
+                    <h4 class="font-semibold text-gray-800">Cash Payment</h4>
+                    <p class="text-gray-600 text-sm">
+                      Pay when service is completed
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card Payment Form -->
+            <div id="cardPaymentForm" class="hidden">
+              <h4 class="text-lg font-semibold mb-4 text-gray-800">
+                Card Details
+              </h4>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+                <div>
+                  <label
+                    class="block text-sm font-medium text-gray-700 mb-2"
+                    >Card Number</label
+                  >
+                  <input
+                    type="text"
+                    class="w-full px-4 py-2 border border-gray-300 rounded focus:ring-2 focus:ring-primary/20 focus:border-primary transition"
+                    placeholder="1234 5678 9012 3456"
+                  />
+                </div>
+                <div>
+                  <label
+                    class="block text-sm font-medium text-gray-700 mb-2"
+                    >Card Holder Name</label
+                  >
+                  <input
+                    type="text"
+                    class="w-full px-4 py-2 border border-gray-300 rounded focus:ring-2 focus:ring-primary/20 focus:border-primary transition"
+                    placeholder="John Doe"
+                  />
+                </div>
+              </div>
+              <div class="grid grid-cols-2 gap-4 mb-6">
+                <div>
+                  <label
+                    class="block text-sm font-medium text-gray-700 mb-2"
+                    >Expiry Date</label
+                  >
+                  <input
+                    type="text"
+                    class="w-full px-4 py-2 border border-gray-300 rounded focus:ring-2 focus:ring-primary/20 focus:border-primary transition"
+                    placeholder="MM/YY"
+                  />
+                </div>
+                <div>
+                  <label class="block text-sm font-medium text-gray-700 mb-2"
+                    >CVV</label
+                  >
+                  <input
+                    type="text"
+                    class="w-full px-4 py-2 border border-gray-300 rounded focus:ring-2 focus:ring-primary/20 focus:border-primary transition"
+                    placeholder="123"
+                  />
+                </div>
+              </div>
+              <div class="flex items-center mb-6">
+                <input
+                  type="checkbox"
+                  id="saveCard"
+                  class="w-4 h-4 text-primary border-gray-300 rounded focus:ring-primary/20"
+                />
+                <label for="saveCard" class="ml-2 text-sm text-gray-600"
+                  >Save card details for future payments</label
+                >
+              </div>
+            </div>
+
+            <!-- Other Payment Methods Info -->
+            <div id="otherPaymentInfo" class="hidden bg-primary/5 p-4 rounded-lg">
+              <p class="text-gray-700" id="paymentInfoText">
+                Select a payment method to continue
+              </p>
+            </div>
+
+            <div class="flex justify-between items-center mt-8">
+              <div class="text-gray-600">
+                <p class="font-semibold">
+                  Total Amount:
+                  <span class="text-primary text-xl">$129.99</span>
+                </p>
+                <p class="text-sm">One-time cleaning service</p>
+              </div>
+              <button
+                class="bg-secondary text-white px-8 py-3 rounded-button font-medium hover:bg-opacity-90 transition"
+                onclick="processPayment()"
+              >
+                Complete Payment
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact" class="py-16 bg-white">
+      <div class="container mx-auto px-4">
+        <div class="flex flex-col md:flex-row gap-12">
+          <div class="md:w-1/2">
+            <h2 class="text-3xl font-bold mb-6 text-gray-800">
+              About Oli Cleaning
+            </h2>
+            <p class="text-gray-600 mb-8">
+             Founded in 2014, Cleaning Services has been the trusted choice for professional cleaning solutions across the metropolitan area. We specialize in both commercial and residential cleaning, serving over 500 satisfied clients with our commitment to excellence and attention to detail.
+
+            </p>
+            <img
+              src="https://i.postimg.cc/QMS6j7nf/IMG-2995-1.jpg"
+              alt="Happy customer"
+              class="rounded-lg shadow-md w-full object-cover object-top"
+            />
+          </div>
+          <div class="md:w-1/2">
+
+            <form class="bg-white p-8 rounded-lg shadow-sm">
+              <h2 class="text-3xl font-bold mb-6 text-gray-800">
+              Book Your Cleaning Today
+            </h2>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                <div>
+                  <label
+                    for="firstName"
+                    class="block text-sm font-medium text-gray-700 mb-2"
+                    >First Name</label
+                  >
+                  <input
+                    type="text"
+                    id="firstName"
+                    class="w-full px-4 py-2 border border-gray-300 rounded focus:ring-2 focus:ring-primary/20 focus:border-primary transition"
+                    placeholder="John"
+                  />
+                </div>
+                <div>
+                  <label
+                    for="lastName"
+                    class="block text-sm font-medium text-gray-700 mb-2"
+                    >Last Name</label
+                  >
+                  <input
+                    type="text"
+                    id="lastName"
+                    class="w-full px-4 py-2 border border-gray-300 rounded focus:ring-2 focus:ring-primary/20 focus:border-primary transition"
+                    placeholder="Doe"
+                  />
+                </div>
+              </div>
+              <div class="mb-6">
+                <label
+                  for="email"
+                  class="block text-sm font-medium text-gray-700 mb-2"
+                  >Email Address</label
+                >
+                <input
+                  type="email"
+                  id="email"
+                  class="w-full px-4 py-2 border border-gray-300 rounded focus:ring-2 focus:ring-primary/20 focus:border-primary transition"
+                  placeholder="john.doe@example.com"
+                />
+              </div>
+              <div class="mb-6">
+                <label
+                  for="phone"
+                  class="block text-sm font-medium text-gray-700 mb-2"
+                  >Phone Number</label
+                >
+                <input
+                  type="tel"
+                  id="phone"
+                  class="w-full px-4 py-2 border border-gray-300 rounded focus:ring-2 focus:ring-primary/20 focus:border-primary transition"
+                  placeholder="(123) 456-7890"
+                />
+              </div>
+              <div class="mb-6">
+                <label
+                  for="service"
+                  class="block text-sm font-medium text-gray-700 mb-2"
+                  >Service Type</label
+                >
+                <div class="relative">
+                  <select
+                    id="service"
+                    class="w-full px-4 py-2 border border-gray-300 rounded appearance-none focus:ring-2 focus:ring-primary/20 focus:border-primary transition pr-8"
+                  >
+                    <option value="">Select a service</option>
+                    <option value="residential">Residential Cleaning</option>
+                    <option value="commercial">Commercial Cleaning</option>
+                    <option value="deep">Deep Cleaning</option>
+                    <option value="move">Move In/Out Cleaning</option>
+                    <option value="window">Window Cleaning</option>
+                    <option value="carpet">Carpet Cleaning</option>
+                  </select>
+                  <div
+                    class="absolute inset-y-0 right-0 flex items-center px-2 pointer-events-none"
+                  >
+                    <div class="w-5 h-5 flex items-center justify-center text-gray-500">
+                      <i class="ri-arrow-down-s-line"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="mb-6">
+                <label
+                  for="date"
+                  class="block text-sm font-medium text-gray-700 mb-2"
+                  >Preferred Date</label
+                >
+                <input
+                  type="date"
+                  id="date"
+                  class="w-full px-4 py-2 border border-gray-300 rounded focus:ring-2 focus:ring-primary/20 focus:border-primary transition"
+                />
+              </div>
+              <div class="mb-6">
+                <label
+                  for="message"
+                  class="block text-sm font-medium text-gray-700 mb-2"
+                  >Special Instructions</label
+                >
+                <textarea
+                  id="message"
+                  rows="4"
+                  class="w-full px-4 py-2 border border-gray-300 rounded focus:ring-2 focus:ring-primary/20 focus:border-primary transition"
+                  placeholder="Tell us about any specific requirements or areas that need special attention..."
+                ></textarea>
+              </div>
+              <button
+                type="submit"
+                class="w-full bg-secondary text-white px-6 py-3 rounded-button font-medium hover:bg-opacity-90 transition whitespace-nowrap"
+              >
+                Book Now
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-16 bg-primary/5">
+      <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">
+          What Our Customers Say
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div class="bg-white p-8 rounded-lg shadow-sm">
+            <div class="flex items-center mb-4">
+              <div class="text-yellow-400 flex">
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+              </div>
+              <span class="ml-2 text-gray-600">5.0</span>
+            </div>
+            <p class="text-gray-700 mb-6">
+              "CleanPro has transformed my home cleaning experience. Their team
+              is professional, thorough, and always goes the extra mile. I've
+              been using their services for over a year now, and my home has
+              never looked better!"
+            </p>
+            <div class="flex items-center">
+              <img
+                src="https://readdy.ai/api/search-image?query=Professional%20headshot%20of%20middle-aged%20woman%20with%20short%20brown%20hair%2C%20neutral%20background%2C%20business%20casual%20attire%2C%20friendly%20smile%2C%20high%20quality%20portrait&width=60&height=60&seq=12358&orientation=squarish"
+                alt="Emily Richardson"
+                class="w-12 h-12 rounded-full object-cover object-top"
+              />
+              <div class="ml-4">
+                <h4 class="font-semibold text-gray-800">Emily Richardson</h4>
+                <p class="text-gray-600 text-sm">Residential Client</p>
+              </div>
+            </div>
+          </div>
+          <div class="bg-white p-8 rounded-lg shadow-sm">
+            <div class="flex items-center mb-4">
+              <div class="text-yellow-400 flex">
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+              </div>
+              <span class="ml-2 text-gray-600">5.0</span>
+            </div>
+            <p class="text-gray-700 mb-6">
+              "As a business owner, maintaining a clean office environment is
+              crucial. Oli Cleaning delivers exceptional commercial cleaning
+              services that keep our workspace spotless and professional. Their
+              attention to detail and reliability have made them an invaluable
+              partner."
+            </p>
+            <div class="flex items-center">
+              <img
+                src="https://readdy.ai/api/search-image?query=Professional%20headshot%20of%20middle-aged%20man%20with%20glasses%2C%20short%20dark%20hair%2C%20business%20suit%2C%20confident%20smile%2C%20neutral%20background%2C%20high%20quality%20portrait&width=60&height=60&seq=12359&orientation=squarish"
+                alt="Michael Thompson"
+                class="w-12 h-12 rounded-full object-cover object-top"
+              />
+              <div class="ml-4">
+                <h4 class="font-semibold text-gray-800">Michael Thompson</h4>
+                <p class="text-gray-600 text-sm">Business Owner</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-16 bg-white">
+      <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">
+          Frequently Asked Questions
+        </h2>
+        <div class="max-w-3xl mx-auto">
+          <div class="mb-6">
+            <button
+              class="flex justify-between items-center w-full text-left p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition"
+              onclick="toggleFaq(this)"
+            >
+              <span class="font-semibold text-gray-800"
+                >How often should I schedule cleaning services?</span
+              >
+              <div class="w-6 h-6 flex items-center justify-center text-primary">
+                <i class="ri-add-line faq-icon"></i>
+              </div>
+            </button>
+            <div class="faq-content hidden p-4 pt-2">
+              <p class="text-gray-600">
+                The frequency of cleaning services depends on your specific
+                needs. For residential clients, we recommend weekly or
+                bi-weekly services for optimal cleanliness. Busy households with
+                children or pets may benefit from weekly cleaning, while smaller
+                households might find bi-weekly services sufficient. We also
+                offer monthly deep cleaning services as a standalone option or
+                as a complement to regular maintenance cleaning.
+              </p>
+            </div>
+          </div>
+          <div class="mb-6">
+            <button
+              class="flex justify-between items-center w-full text-left p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition"
+              onclick="toggleFaq(this)"
+            >
+              <span class="font-semibold text-gray-800"
+                >What cleaning products do you use?</span
+              >
+              <div class="w-6 h-6 flex items-center justify-center text-primary">
+                <i class="ri-add-line faq-icon"></i>
+              </div>
+            </button>
+            <div class="faq-content hidden p-4 pt-2">
+              <p class="text-gray-600">
+                We prioritize the use of eco-friendly, non-toxic cleaning
+                products that are effective yet safe for your family, pets, and
+                the environment. Our professional-grade products are
+                specifically chosen to deliver exceptional cleaning results
+                without harsh chemicals. If you have specific product
+                preferences or sensitivities, we're happy to accommodate your
+                requests and use products you provide.
+              </p>
+            </div>
+          </div>
+          <div class="mb-6">
+            <button
+              class="flex justify-between items-center w-full text-left p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition"
+              onclick="toggleFaq(this)"
+            >
+              <span class="font-semibold text-gray-800"
+                >Are your cleaning professionals insured and bonded?</span
+              >
+              <div class="w-6 h-6 flex items-center justify-center text-primary">
+                <i class="ri-add-line faq-icon"></i>
+              </div>
+            </button>
+            <div class="faq-content hidden p-4 pt-2">
+              <p class="text-gray-600">
+                Yes, all our cleaning professionals are fully insured and
+                bonded. This provides protection for both our clients and our
+                team members. Additionally, all staff undergo thorough
+                background checks and extensive training before joining our
+                team. We take great care in selecting reliable, trustworthy
+                individuals who meet our high standards for professionalism and
+                cleaning expertise.
+              </p>
+            </div>
+          </div>
+          <div class="mb-6">
+            <button
+              class="flex justify-between items-center w-full text-left p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition"
+              onclick="toggleFaq(this)"
+            >
+              <span class="font-semibold text-gray-800"
+                >Can I request the same cleaning team for each visit?</span
+              >
+              <div class="w-6 h-6 flex items-center justify-center text-primary">
+                <i class="ri-add-line faq-icon"></i>
+              </div>
+            </button>
+            <div class="faq-content hidden p-4 pt-2">
+              <p class="text-gray-600">
+                Absolutely! We understand the importance of consistency and
+                building trust with your cleaning professionals. We make every
+                effort to assign the same team to your property for each
+                cleaning visit. This allows our team to become familiar with
+                your specific preferences and requirements, resulting in a more
+                personalized and efficient cleaning experience. In the event
+                that your regular team is unavailable, we'll notify you in
+                advance.
+              </p>
+            </div>
+          </div>
+          <div>
+            <button
+              class="flex justify-between items-center w-full text-left p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition"
+              onclick="toggleFaq(this)"
+            >
+              <span class="font-semibold text-gray-800"
+                >What is your cancellation policy?</span
+              >
+              <div class="w-6 h-6 flex items-center justify-center text-primary">
+                <i class="ri-add-line faq-icon"></i>
+              </div>
+            </button>
+            <div class="faq-content hidden p-4 pt-2">
+              <p class="text-gray-600">
+                We understand that schedules can change. We request at least 24
+                hours' notice for any cancellations or rescheduling to avoid a
+                cancellation fee. For same-day cancellations, a fee of 50% of
+                the service cost may apply. If you need to reschedule, we'll do
+                our best to accommodate your preferred alternative date and time
+                based on our availability.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-16 bg-primary/5">
+      <div class="container mx-auto px-4 text-center">
+        <h2 class="text-3xl font-bold mb-6 text-gray-800">
+          Ready to Experience a Cleaner Home?
+        </h2>
+        <p class="text-gray-600 mb-8 max-w-2xl mx-auto">
+          Join thousands of satisfied customers who trust CleanPro for their
+          cleaning needs. Book your service today and enjoy a spotless, fresh
+          environment.
+        </p>
+        <div class="flex flex-wrap justify-center gap-4">
+          <a
+            href="#contact"
+            class="bg-secondary text-white px-8 py-3 rounded-button font-medium hover:bg-opacity-90 transition whitespace-nowrap"
+            >Book Now</a
+          >
+          <a
+            href="#contacts"
+            class="border-2 border-primary bg-transparent text-primary px-8 py-3 rounded-button font-medium hover:bg-primary hover:text-white transition whitespace-nowrap"
+            >Contact Us</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contacts" class="bg-primary text-white pt-16 pb-8">
+      <div class="container mx-auto px-4">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
+          <div>
+            <a
+              href="#"
+              class="text-white text-3xl font-['Pacifico'] mb-4 inline-block"
+              >Oli Cleaning</a
+            >
+            <p class="text-white/80 mb-6">
+              Professional cleaning services for homes and businesses. Quality,
+              reliability, and customer satisfaction guaranteed.
+            </p>
+            <div class="flex space-x-4">
+              <a href="#" class="text-white hover:text-white/80">
+                <div
+                  class="w-10 h-10 flex items-center justify-center bg-white/20 rounded-full"
+                >
+                  <i class="ri-facebook-fill"></i>
+                </div>
+              </a>
+              <a href="#" class="text-white hover:text-white/80">
+                <div
+                  class="w-10 h-10 flex items-center justify-center bg-white/20 rounded-full"
+                >
+                  <i class="ri-twitter-fill"></i>
+                </div>
+              </a>
+              <a href="#" class="text-white hover:text-white/80">
+                <div
+                  class="w-10 h-10 flex items-center justify-center bg-white/20 rounded-full"
+                >
+                  <i class="ri-instagram-fill"></i>
+                </div>
+              </a>
+              <a href="#" class="text-white hover:text-white/80">
+                <div
+                  class="w-10 h-10 flex items-center justify-center bg-white/20 rounded-full"
+                >
+                  <i class="ri-linkedin-fill"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div>
+            <h3 class="text-lg font-semibold mb-4">Services</h3>
+            <ul class="space-y-2">
+              <li>
+                <a href="#" class="text-white/80 hover:text-white"
+                  >Residential Cleaning</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white/80 hover:text-white"
+                  >Commercial Cleaning</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white/80 hover:text-white"
+                  >Deep Cleaning</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white/80 hover:text-white"
+                  >Move In/Out Cleaning</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white/80 hover:text-white"
+                  >Window Cleaning</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white/80 hover:text-white"
+                  >Carpet Cleaning</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-lg font-semibold mb-4">Company</h3>
+            <ul class="space-y-2">
+              <li>
+                <a href="#" class="text-white/80 hover:text-white">About Us</a>
+              </li>
+              <li>
+                <a href="#" class="text-white/80 hover:text-white"
+                  >Our Team</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white/80 hover:text-white">Careers</a>
+              </li>
+              <li>
+                <a href="#" class="text-white/80 hover:text-white"
+                  >Testimonials</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white/80 hover:text-white">Blog</a>
+              </li>
+              <li>
+                <a href="#" class="text-white/80 hover:text-white">FAQ</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-lg font-semibold mb-4">Contact Us</h3>
+            <ul class="space-y-4">
+              <li class="flex items-start">
+                <div
+                  class="w-5 h-5 flex items-center justify-center text-white/80 mt-0.5"
+                >
+                  <i class="ri-map-pin-line"></i>
+                </div>
+                <span class="ml-2 text-white/80"
+                  >123 Cleaning Street, Suite 100<br />New York, NY 10001</span
+                >
+              </li>
+              <li class="flex items-center">
+                <div
+                  class="w-5 h-5 flex items-center justify-center text-white/80"
+                >
+                  <i class="ri-phone-line"></i>
+                </div>
+                <span class="ml-2 text-white/80">(123) 456-7890</span>
+              </li>
+              <li class="flex items-center">
+                <div
+                  class="w-5 h-5 flex items-center justify-center text-white/80"
+                >
+                  <i class="ri-mail-line"></i>
+                </div>
+                <span class="ml-2 text-white/80">info@cleanpro.com</span>
+              </li>
+            </ul>
+           <!--  <div class="mt-6">
+              <h4 class="font-medium mb-2">Subscribe to our newsletter</h4>
+              <div class="flex">
+                <input
+                  type="email"
+                  placeholder="Your email"
+                  class="px-4 py-2 rounded-l-button text-gray-800 border-none flex-1 focus:outline-none"
+                />
+                <button
+                  class="bg-secondary text-white px-4 py-2 rounded-r-button hover:bg-opacity-90 transition whitespace-nowrap"
+                >
+                  Subscribe
+                </button>
+              </div> -->
+            </div>
+          </div>
+        </div>
+        <div
+          class="pt-8 border-t border-white/20 flex flex-col md:flex-row justify-between items-center"
+        >
+          <p class="text-white/60 text-sm mb-4 md:mb-0">
+            © 2025 Oli Cleaning. All rights reserved.
+          </p>
+          <div class="flex space-x-6">
+            <a href="#" class="text-white/60 hover:text-white text-sm"
+              >Privacy Policy</a
+            >
+            <a href="#" class="text-white/60 hover:text-white text-sm"
+              >Terms of Service</a
+            >
+            <a href="#" class="text-white/60 hover:text-white text-sm"
+              ></a
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      function selectPlan(plan) {
+        const plans = document.querySelectorAll(".grid > div");
+        plans.forEach((p) => {
+          p.classList.remove(
+            "selected-plan",
+            "border-2",
+            "border-primary",
+            "scale-105"
+          );
+          p.classList.add("scale-100");
+        });
+        const selectedPlan = document.querySelector(
+          `[onclick="selectPlan('${plan}')"]`
+        );
+        selectedPlan.classList.add(
+          "selected-plan",
+          "border-2",
+          "border-primary",
+          "scale-105"
+        );
+        selectedPlan.classList.remove("scale-100");
+      }
+
+      function toggleFaq(element) {
+        const content = element.nextElementSibling;
+        const icon = element.querySelector(".faq-icon");
+        if (content.classList.contains("hidden")) {
+          content.classList.remove("hidden");
+          icon.classList.remove("ri-add-line");
+          icon.classList.add("ri-subtract-line");
+        } else {
+          content.classList.add("hidden");
+          icon.classList.remove("ri-subtract-line");
+          icon.classList.add("ri-add-line");
+        }
+      }
+
+      // Payment Method Selection
+      let selectedPaymentMethod = "";
+      function selectPaymentMethod(method) {
+        selectedPaymentMethod = method;
+        // Remove selected class from all payment methods
+        document.querySelectorAll(".payment-method").forEach((el) => {
+          el.classList.remove("selected");
+        });
+        // Add selected class to clicked payment method
+        event.currentTarget.classList.add("selected");
+        // Show appropriate form or info
+        const cardForm = document.getElementById("cardPaymentForm");
+        const otherInfo = document.getElementById("otherPaymentInfo");
+        const infoText = document.getElementById("paymentInfoText");
+        if (method === "card") {
+          cardForm.classList.remove("hidden");
+          otherInfo.classList.add("hidden");
+        } else {
+          cardForm.classList.add("hidden");
+          otherInfo.classList.remove("hidden");
+          if (method === "paypal") {
+            infoText.textContent =
+              "You will be redirected to PayPal to complete your payment securely.";
+          } else if (method === "bank") {
+            infoText.textContent =
+              "Please use the following bank details for your transfer. We will confirm your payment within 1-2 business days.";
+          } else if (method === "cash") {
+            infoText.textContent =
+              "You can pay with cash when our cleaning team completes the service. Please have the exact amount ready.";
+          }
+        }
+      }
+
+      function processPayment() {
+        if (!selectedPaymentMethod) {
+          alert("Please select a payment method");
+          return;
+        }
+        // Simulate payment processing
+        alert(
+          `Processing ${selectedPaymentMethod.toUpperCase()} payment...\n\nThank you for your booking! Our team will contact you shortly to confirm your appointment.`
+        );
+        // In a real application, you would submit the form data to your server here
+      }
+
+      document.addEventListener("DOMContentLoaded", function () {
+        // Mobile menu toggle functionality could be added here
+      });
+    </script>
+  </body>
+</html>
